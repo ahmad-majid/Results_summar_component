@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Outfit&family=Poppins:wght@300;400;700&display=swap');
+
+
+.container{
+     
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.box_content{
+    width: 650px;
+    height: 500px;
+    margin-top: 30px;
+    display: flex;
+border-radius: 30px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.left-side{
+    width: 330px;
+    height: 500px;
+    background-color: #5a3df9;
+    border-radius: 30px;
+
+}
+
+
+ .result{
+    text-align: center;
+     padding-top: 30px;
+    color:#dbd5ff;
+ }
+
+  
+
+.sidebar-circle{
+    width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color:#4827d0;
+   
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.number{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    flex-direction: column; 
+}
+    
+ 
+
+.number_sidebar{
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+
+}
+
+.number_sidebar-small{
+    color: #c1b6ff;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+}
+
+ 
+
+.great-text{
+    text-align: center;
+    font-size: 28px;
+   color:#ffffff;
+   font-weight: 600;
+   font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+
+
+.sidebar-text{
+    text-align: center;
+    font-size: 15px;
+   color:#dbd5fe;
+   font-weight: 300;
+   font-family: 'Hanken Grotesk', sans-serif;
+   line-height: 0.5;
+}
+
+.right-side{
+    padding: 30px;
+}
+
+.reaction_box{
+    width: 250px;
+   padding: 10px;
+    border: 2px solid #fff6f5;
+    background-color:#fff6f5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.memory_box{
+    width: 250px;
+    padding: 10px;
+     border: 2px solid #fffbf2;
+     background-color:#fffbf2;
+     border-radius: 10px;
+     margin-top: 20px;
+     display: flex;
+    justify-content: space-between;
+}
+
+.reaction_text{
+    color: red;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+   margin-right: 60px;
+    font-weight: 600;
+}
+
+ 
+.reaction_texts{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.memmory{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+   margin-right: 60px;
+    font-weight: 600;
+    color: #f7bf51;
+}
+
+.memmory_100{
+    color: #9d99a7;
+}
+
+.verbal_box{
+    width: 250px;
+    padding: 10px;
+     border: 2px solid #fffbf2;
+     background-color:#f2fbfa;
+     border-radius: 10px;
+     margin-top: 20px;
+     display: flex;
+    justify-content: space-between;
+}
+
+.verbal{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+   margin-right: 60px;
+    font-weight: 600;
+    color:#40aa90; 
+}
+
+.visual_box{
+    width: 250px;
+    padding: 10px;
+     border: 2px solid #fffbf2;
+     background-color:#f3f3fd;
+     border-radius: 10px;
+     margin-top: 20px;
+     display: flex;
+    justify-content: space-between;
+}
+
+.visual{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+   margin-right: 60px;
+    font-weight: 600;
+    color:#303ab2; 
+}
+
+
+
+ button{
+    width: 255px;
+     color: white;
+    border: 10px solid #303b59;
+     margin-left: 10px;
+    margin-top: 45px;
+    border-radius: 50px;
+    background-color: #303b59;
+    cursor: pointer;
+ }
+ .footer {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  width: 50%;
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-size: 16px;
+  word-spacing: 8px;
+}
+
+.footer a {
+  color: #fff; 
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+ 
+  .box_content {
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+  }
+  .box_content {
+  box-shadow: none;
+  }
+  .left-side,
+  .right-side {
+  order: 2;
+  }
+}
