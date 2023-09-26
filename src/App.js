@@ -64,26 +64,26 @@ function App() {
             </div>
        
           </div>
-          <footer className="footer">
-        <p>
-          Challenge by{' '}
-          <a
-            href="https://www.frontendmentor.io/profile/ahmad-majid"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Frontend Mentor
-          </a>
-          . Coded by{' '}
-          <a
-            href="https://www.linkedin.com/in/ahmad-majid-957ba9200"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ahmad Majid
-          </a>
-        </p>
-      </footer>
+          <div className="footer_abc">
+      <p>
+        Challenge by{' '}
+        <a
+          href="https://www.frontendmentor.io/profile/ahmad-majid"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by{' '}
+        <a
+          href="https://www.linkedin.com/in/ahmad-majid-957ba9200"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ahmad Majid
+        </a>
+      </p>
+    </div>
        
         </div>
       
